@@ -17,3 +17,12 @@ class PostSerializer(AbstractSerializer):
         model=Post
         fields=['id','author','body','edited','created','updated']
         read_only_fields=["edited"]
+        
+class PostSerializer(AbstractSerializer):
+    
+    def to_representation(self,instance):
+        rep=super().to_representation(instance)
+        author=User.objects.get_object_by_public_id(rep["author"])
+        rep["author"]=UserSerializer(author).data
+        
+        return rep
