@@ -10,6 +10,9 @@ export default defineConfig({
         target: 'http://localhost:8000',
         changeOrigin: true,
       }
-    }
+    },
+    // Add this line to allow the external host
+    allowedHosts: ['sb-73zht1yoiuvm.vercel.run']
   }
 })
+
