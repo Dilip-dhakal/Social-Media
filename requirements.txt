@@ -23,13 +23,13 @@ python-dotenv==1.0.0
 python-decouple==3.8
 
 # Production Server
-gunicorn==21.2.0  # latest compatible with Python <3.10
+gunicorn==21.2.0
 
 # Pagination
-djangorestframework-pagination==1.2  # valid on PyPI
+djangorestframework-pagination==1.2
 
 # Permissions & Serializer Helpers
-django-rest-serializer-field-permissions==4.1.0  # latest existing version
+django-rest-serializer-field-permissions==4.1.0
 
 # Dev Tools
 django-extensions==3.2.3
@@ -43,16 +43,16 @@ pytest-django==4.7.0
 pytest-cov==4.1.0
 
 # Security
-cryptography==41.0.7
+cryptography==40.0.2  # compatible with Python 3.8–3.9
 
-# Caching (optional)
-django-redis==5.4.0
-redis==5.0.1
+# Caching
+django-redis==5.3.0
+redis==4.6.0
 
 # API Rate Limiting
-djangorestframework-ratelimit==1.0.1
+djangorestframework-ratelimit==1.0.0  # only available version
 
-# Background Tasks (optional)
+# Background Tasks
 celery==5.3.4
 
 # Logging
