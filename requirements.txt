@@ -23,14 +23,13 @@ python-dotenv==1.0.0
 python-decouple==3.8
 
 # Production Server
-gunicorn==21.2.0
+gunicorn==21.2.0  # latest compatible with Python <3.10
 
 # Pagination
-djangorestframework-pagination==1.2
-
+djangorestframework-pagination==1.2  # valid on PyPI
 
 # Permissions & Serializer Helpers
-django-rest-serializer-field-permissions==5.1.0
+django-rest-serializer-field-permissions==4.1.0  # latest existing version
 
 # Dev Tools
 django-extensions==3.2.3
