@@ -1,0 +1,32 @@
+# Testing Dependencies
+# Install with: pip install -r requirements-test.txt
+
+# Include base requirements
+-r requirements.txt
+
+# Testing Framework
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+pytest-xdist==3.5.0
+pytest-mock==3.12.0
+
+# Fixtures and Factories
+factory-boy==3.3.0
+faker==21.0.0
+
+# Code Coverage
+coverage==7.3.2
+
+# Performance Testing
+pytest-benchmark==4.0.0
+
+# API Testing
+requests==2.31.0
+responses==0.24.1
+
+# Mocking
+unittest-mock==1.5.0
+
+# Test Documentation
+pytest-html==4.1.1

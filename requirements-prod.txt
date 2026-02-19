@@ -1,0 +1,55 @@
+# Production Dependencies
+# Install with: pip install -r requirements-prod.txt
+# Optimized for performance and security
+
+# Core Framework
+Django==6.0.1
+djangorestframework==3.14.0
+
+# CORS Support
+django-cors-headers==4.3.1
+
+# JWT Authentication
+djangorestframework-simplejwt==5.3.2
+
+# Database
+psycopg2-binary==2.9.9
+
+# Filtering
+django-filter==24.1
+
+# Image Processing
+Pillow==10.1.0
+
+# Environment Variables
+python-dotenv==1.0.0
+python-decouple==3.8
+
+# Production Server
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Security
+cryptography==41.0.7
+django-cors-headers==4.3.1
+django-ratelimit==4.1.0
+
+# API Documentation
+drf-spectacular==0.27.0
+
+# Caching and Performance
+django-redis==5.4.0
+redis==5.0.1
+
+# Rate Limiting
+djangorestframework-ratelimit==1.0.1
+
+# Logging
+python-json-logger==2.0.7
+
+# Monitoring (Optional)
+sentry-sdk==1.38.0
+
+# Background Tasks (Optional)
+celery==5.3.4
+celery-beat==2.5.0
