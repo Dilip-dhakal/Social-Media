@@ -26,7 +26,8 @@ python-decouple==3.8
 gunicorn==21.2.0
 
 # Pagination
-djangorestframework-pagination==0.0.10
+djangorestframework-pagination==1.2
+
 
 # Permissions & Serializer Helpers
 django-rest-serializer-field-permissions==5.1.0
